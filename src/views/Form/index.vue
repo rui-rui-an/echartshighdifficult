@@ -143,8 +143,9 @@ export default {
     // 根据nodeId生成关系列表
     nodeId (val) {
       if (!val) return
+      // 因为没有接口，所以就注释了
       // getNodeAndRelationList({
-      //   attrTypeCode: this.attrTypeCode,
+      //   attrTypeCode: this.attrTypeCode, //
       //   nodeId: val,
       //   canvas: this.RelationId
       // }).then(res => {
